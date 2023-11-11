@@ -1,0 +1,106 @@
+1.
+CREATE TABLE employee (
+	id INTEGER PRIMARY KEY,
+	name VARCHAR(50),
+	birthday DATE,
+	email VARCHAR(100)
+);
+
+2.
+INSERT INTO employee (id, name, birthday, email) VALUES (1, 'Zacharia', '1970-06-13', 'zmanuele0@washington.edu');
+INSERT INTO employee (id, name, birthday, email) VALUES (2, 'Brianna', '2018-06-28', 'bheinonen1@hibu.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (3, 'Curtis', '1953-03-17', 'cmacgebenay2@fastcompany.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (4, 'Myrta', '1960-07-19', 'mfremantle3@dailymotion.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (5, 'Robenia', '2011-09-24', 'rtorrijos4@omniture.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (6, 'Caterina', '2020-09-26', 'cdulling5@rediff.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (7, 'Pavel', '2019-06-15', 'pthomson6@taobao.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (8, 'Lazare', '1984-02-29', 'lmcpartling7@wufoo.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (9, 'Bendix', '2019-02-17', 'bshireff8@sourceforge.net');
+INSERT INTO employee (id, name, birthday, email) VALUES (10, 'Federico', '1985-08-03', 'fspring9@ucsd.edu');
+INSERT INTO employee (id, name, birthday, email) VALUES (11, 'Matelda', '1963-08-29', 'mafonsoa@ftc.gov');
+INSERT INTO employee (id, name, birthday, email) VALUES (12, 'Codee', '1967-02-25', 'cyarmouthb@weather.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (13, 'Dacey', '1993-04-27', 'driellyc@abc.net.au');
+INSERT INTO employee (id, name, birthday, email) VALUES (14, 'Stafford', '1975-10-20', 'sbleadend@ed.gov');
+INSERT INTO employee (id, name, birthday, email) VALUES (15, 'Gradey', '1975-09-30', 'gposere@vistaprint.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (16, 'Romeo', '1955-02-26', 'rrapaf@naver.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (17, 'Devy', '1992-08-04', 'dhumbellg@ted.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (18, 'Wadsworth', '1953-08-28', 'wguyonneauh@skype.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (19, 'Chastity', '2004-03-26', 'cballentimei@patch.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (20, 'Stanleigh', '1967-08-09', 'sswiersj@jimdo.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (21, 'Vite', '2008-11-12', 'vbardenk@goodreads.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (22, 'Kerry', '1981-03-07', 'kbothenl@aboutads.info');
+INSERT INTO employee (id, name, birthday, email) VALUES (23, 'Ericka', '1974-11-02', 'erossbrookem@moonfruit.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (24, 'Wanda', '2022-09-09', 'wcrasswelln@webeden.co.uk');
+INSERT INTO employee (id, name, birthday, email) VALUES (25, 'Pierre', '1995-08-25', 'psaultero@ucoz.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (26, 'Catharine', '2001-08-06', 'cluciap@examiner.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (27, 'Alan', '2000-06-16', 'ascudderq@wix.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (28, 'Ericha', '1978-12-21', 'eoxtobyr@tumblr.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (29, 'Lalo', '1981-01-20', 'lpelchats@fda.gov');
+INSERT INTO employee (id, name, birthday, email) VALUES (30, 'Sven', '1971-11-02', 'sportert@microsoft.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (31, 'Maxy', '2006-02-14', 'mdrakeleyu@fc2.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (32, 'Kriste', '1982-10-10', 'kferribyv@shareasale.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (33, 'Genovera', '1977-06-29', 'grookledgew@hibu.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (34, 'Roth', '1979-02-18', 'rwalterx@businessweek.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (35, 'Siusan', '2018-08-20', 'stryy@spotify.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (36, 'Jolyn', '2015-06-14', 'jgiraudeauz@bloglovin.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (37, 'Fabien', '1966-10-07', 'fhastewell10@alibaba.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (38, 'Mose', '1988-12-25', 'mhariot11@sourceforge.net');
+INSERT INTO employee (id, name, birthday, email) VALUES (39, 'Ethyl', '2021-01-31', 'eplumbley12@ehow.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (40, 'Chickie', '2023-03-18', 'ckondratenya13@histats.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (41, 'Marchall', '2001-10-11', 'mcostello14@nasa.gov');
+INSERT INTO employee (id, name, birthday, email) VALUES (42, 'Godfry', '2010-10-18', 'gdunkerley15@sbwire.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (43, 'Cliff', '1955-06-17', 'cseamans16@unc.edu');
+INSERT INTO employee (id, name, birthday, email) VALUES (44, 'Grange', '1974-10-01', 'gtierny17@ehow.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (45, 'Merrielle', '1984-11-06', 'mmarritt18@prweb.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (46, 'Rustin', '2011-08-22', 'rfrancom19@jugem.jp');
+INSERT INTO employee (id, name, birthday, email) VALUES (47, 'Emmeline', '1978-06-17', 'ecampbell1a@about.me');
+INSERT INTO employee (id, name, birthday, email) VALUES (48, 'Deck', '2002-12-04', 'dsturdgess1b@ycombinator.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (49, 'Halley', '1961-05-23', 'hingall1c@tinyurl.com');
+INSERT INTO employee (id, name, birthday, email) VALUES (50, 'Gerty', '2007-01-11', 'ggieraths1d@dailymotion.com');
+
+3.
+(1)
+UPDATE employee
+SET name = 'John'
+WHERE id = 1;
+
+(2) 
+UPDATE employee
+SET name = 'Jane'
+WHERE name LIKE 'C%';
+
+(3)
+UPDATE employee
+SET email = 'companyname@company.com'
+WHERE id > 20 AND name LIKE '_____';
+
+(4)
+UPDATE employee
+SET birthday = '2023-11-11'
+WHERE email LIKE '%gov';
+
+(5)
+UPDATE employee
+SET name = 'Alexa'
+WHERE name LIKE '%ia' AND email LIKE '%.com';
+
+4.
+(1)
+DELETE FROM employee
+WHERE name LIKE 'R%';
+
+(2)
+DELETE FROM employee
+WHERE email LIKE '%.net'
+
+(3)
+DELETE FROM employee
+WHERE id > 40;
+
+(4)
+DELETE FROM employee
+WHERE name LIKE '____';
+
+(5)
+DELETE FROM employee
+WHERE id < 10 AND email LIKE '%.edu';
